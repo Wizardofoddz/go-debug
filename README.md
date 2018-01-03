@@ -1,4 +1,4 @@
-This is a fork from tj/go-debug, which was deleted in December of 2017. We didn't have a git clone of the project, only a shallow snapshot, so we were unable to preserve the git history. 
+This is a fork from computes/go-debug, which was deleted in December of 2017. We didn't have a git clone of the project, only a shallow snapshot, so we were unable to preserve the git history. 
 
 # go-debug
 
@@ -9,7 +9,7 @@ This is a fork from tj/go-debug, which was deleted in December of 2017. We didn'
 ## Installation
 
 ```
-$ go get github.com/tj/go-debug
+$ go get github.com/computes/go-debug
 ```
 
 ## Example
@@ -17,7 +17,7 @@ $ go get github.com/tj/go-debug
 ```go
 package main
 
-import . "github.com/tj/go-debug"
+import . "github.com/computes/go-debug"
 import "time"
 
 var debug = Debug("single")
